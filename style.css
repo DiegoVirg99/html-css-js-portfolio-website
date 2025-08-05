@@ -264,6 +264,13 @@ section {
     gap: 1rem;
 }
 
+.project-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+}
+
 /* ABOUT SECTION */
 
 #about {
@@ -382,6 +389,22 @@ article .icon {
 .project-btn{
     color: black;
     border-color: rgb(163,163,163);
+}
+
+.project-description {
+    text-align: center;
+}
+
+.project-description ul {
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.project-description ul a:hover {
+    text-decoration: none;
 }
 
 /* CONTACT SECTION */

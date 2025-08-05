@@ -92,4 +92,9 @@
     .text-container {
         text-align: justify;
     }
+    .project-description {
+        width: 100%;
+        word-break: break-word;
+        text-align: center;
+    }
  }
